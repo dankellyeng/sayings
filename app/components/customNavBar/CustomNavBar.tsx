@@ -9,7 +9,7 @@ const CustomNavbar = () => {
       <NavigationMenu.List className={customNavBar.Navbar}>
         <NavigationMenu.Item className={customNavBar.NavLink}>
           <NavigationMenu.Link className={customNavBar.NavLink} href="/">
-            Sausage's Sayings
+            Sausage&apos;s Sayings
           </NavigationMenu.Link>
         </NavigationMenu.Item>
       </NavigationMenu.List>
