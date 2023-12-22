@@ -1,0 +1,38 @@
+@import "../../../styles/styles.scss";
+@import "../../../styles/variables";
+
+.heading {
+  // background-color: $color-primary;
+  // color: white;
+  font-size: 18px;
+  font-family: "Arial";
+  font-weight: bold;
+  // width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // min-height: 110px;
+  padding: 10px;
+
+  &:hover {
+    color: #262b29;
+  }
+
+  @include devices(mobile) {
+    font-size: 22px;
+    max-width: 250px;
+  }
+}
+.allCards {
+  width: 30%;
+  // height: 100%;
+  padding: 15px;
+  background-color: $color-secondary;
+
+  @include devices(tablet) {
+    // border: 1px solid black;
+    // border-radius: 10px;
+    margin-bottom: 20px;
+    // box-shadow: 10px 10px #474747;
+  }
+}
