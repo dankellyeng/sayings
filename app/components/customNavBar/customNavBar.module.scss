@@ -2,7 +2,6 @@
 @import "../../../styles/variables";
 
 .NavContainer {
-  position: fixed;
   width: 100%;
 }
 
@@ -19,14 +18,16 @@
 
 .NavLink {
   background-color: $color-primary;
-  color: white;
+  color: #f3ede2;
   font-size: 28px;
-  font-family: "Arial";
+  font-family: "Roxborough-CF";
   font-weight: bold;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: 1px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
 
   &:hover {
     color: #262b29;
