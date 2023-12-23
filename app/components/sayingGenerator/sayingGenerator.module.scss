@@ -83,8 +83,12 @@
 
 .image2 {
   position: relative;
-  width: 100%;
   height: auto;
+  padding-left: 75px;
+  padding-right: 75px;
+  @include devices(tablet) {
+    padding: 0;
+  }
 }
 
 .speechBubble {
